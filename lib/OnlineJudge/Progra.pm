@@ -8,7 +8,7 @@ use File::Copy;
 use warnings;
 use strict;
 
-our $VERSION = '0.021';
+our $VERSION = '0.022';
 
 $0 = 'progra';
 
@@ -817,11 +817,24 @@ There are lots of things to do:
 
 =back
 
+=head1 AVAILABILITY
+
+ The latest version of progra is available from CPAN:
+
+ http://search.cpan.org/dist/OnlineJudge-Progra/
+
+ You can also browse the git repository at:
+
+ https://github.com/ileiva/onlinejudge-progra.git
+       
+
 =head1 AUTHOR
 
- israel leiva - <ilv AT cpan DOT org>
+ israel leiva <ilv AT cpan DOT org>
 
 =head1 COPYRIGHT
+
+ Copyright (c) 2011-2014 israel leiva
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

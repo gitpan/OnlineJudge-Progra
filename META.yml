@@ -24,4 +24,4 @@ requires:
   File::Spec::Functions: 3.3
   Proc::Killall: 1
   Test::Simple: 0.98
-version: 0.021
+version: 0.022

@@ -1,6 +1,11 @@
 Revision history for Perl extension OnlineJudge::Progra.
 
-0.021 - 2014-02-07
+0.022 - 2014-02-07
+
+ - Fixed META.json
+ - Added link to github repository
+
+0.021 - 2014-02-06
 
  [Code]
  - Added set_logging function which enable/disable logging.
