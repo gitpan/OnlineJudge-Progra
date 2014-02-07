@@ -1,5 +1,20 @@
 Revision history for Perl extension OnlineJudge::Progra.
 
-0.01  Monday April 02 10:00:00 2012
+0.02 - 2014-02-07
+
+ [Code]
+ - Added set_logging function which enable/disable logging.
+ - Create Test module for testing purposes.
+
+ [Documentation and others]
+ - Minor changes in script.sh and renamed it to progra.sh.
+ - Fixed the META.yaml files.
+ - Added a few tests.
+ - Fixed some typos in the POD and added a TODO list.
+
+0.01 - 2012-04-02
+
+ - Initial release.
+	
 
 

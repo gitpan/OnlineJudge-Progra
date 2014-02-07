@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-# Bash script to manage Progra
-# Israel Leiva A. - <ileiva at csrg.cl>
-# version: 0.01
+# bash script to manage Progra
+# israel leiva <ilv@cpan.org>
+# version: 0.02
 #
-# Usage:
+# usage:
 # chmod +x progra.sh
 #	./progra [start|stop|restart]
 #
@@ -17,35 +17,35 @@ OPTION=$1
 cd $DIR
 
 if [ $OPTION = 'start' ]; then
-	echo ":: Starting Progra"
+	echo ":: starting progra"
 	LS=$(ls *.pid 2>/dev/null)
 	if [ "$LS" = "" ]; then
 		perl $SCRIPT_NAME
 	else
-		echo "ERROR: There is a Progra running"
-		echo "To start a new one you must stop it"
+		echo "ERROR: progra is already running"
+		echo "stop the old one before starting a new instance"
 	fi
 elif [ $OPTION = "stop" ]; then
-	echo ":: Stopping Progra"
+	echo ":: stopping progra"
 	LS=$(ls *.pid 2>/dev/null)
 	if [ "$LS" = "" ]; then
-		echo "ERROR: There is no Progra running"
+		echo "ERROR: no progra running"
 	else
 		rm $LS
 	fi
 elif [ $OPTION = "restart" ]; then
-	echo ":: Restarting Progra"
+	echo ":: restarting progra"
 	LS=$(ls *.pid 2>/dev/null)
 	if [ "$LS" = "" ]; then
-		echo "ERROR: There is no Progra running"
+		echo "ERROR: no progra running"
 	else
 		rm $LS
 		sleep 2
-		echo ":: Starting Progra"
+		echo ":: starting progra"
 		perl $SCRIPT_NAME
 	fi
 else
-	echo ":: Invalid option"
+	echo ":: invalid option"
 fi
 
 
