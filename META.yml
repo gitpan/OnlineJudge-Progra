@@ -3,7 +3,6 @@ abstract: (Just Another) Programming Tasks Grading System
 author:
   - 'israel leiva <ilv@cpan.org>'
 build_requires:
-  Cwd: 3.4
   ExtUtils::MakeMaker: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
@@ -20,9 +19,9 @@ no_index:
     - inc
 requires:
   perl: 5.008
-  Cwd: 3.4
+  Cwd: 3.36
   File::Copy: 2.14
   File::Spec::Functions: 3.3
   Proc::Killall: 1
-  Test::Simple: 1.001002
-version: 0.02
+  Test::Simple: 0.98
+version: 0.021

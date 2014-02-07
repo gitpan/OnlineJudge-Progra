@@ -1,4 +1,4 @@
-OnlineJudge-Progra version 0.02
+OnlineJudge-Progra version 0.021
 ===============================
 
 Progra is an online judge capable of compile and test programs
@@ -8,11 +8,11 @@ Requisites:
 
 	* Linux
 	* Perl 5 (see extra modules below)
-	* diff command
+	* diff
 
 Obviously, you'll need the compilers and/or interpreters of the languages 
 you'll use (e.g. gcc, perl, g++). The main path structure needed
-to use progra is as follows:
+to use Progra is as follows:
 
    - user_path/
    - task_path/
@@ -33,16 +33,16 @@ of inputs and outputs. The naming of testcases is input./output. followed
 by a number from 0 to n-1, n being the total number of testcases for that 
 particular task. The mapping between input and output is given by this 
 number. For example, input.0 is associated with output.0, input.1 with 
-output.1 and so on.
+output.1 and so forth.
 
 Once progra starts, it creates a .pid file in its home directory. To stop
-it you should delete this file. There is a progra.sh file included if you need
-to automate this.
+it you should delete this file. There is a progra.sh file included in case
+you need to automate this.
 
 Finally, remember thar source codes to be tested must interact with
 standard input and standard ouput.
 
-For more information look the perl-doc for OnlineJudge::Progra.
+For more information look at the POD in Progra.pm.
 
 INSTALLATION
 
@@ -61,11 +61,10 @@ This module requires:
   Proc::Killall
   File::Spec::Functions
   File::Copy
-  Test::Simple
 
 COPYRIGHT AND LICENSE
 
-Written by israel leiva  <ilv AT cpan DOT org>
+israel leiva  <ilv AT cpan DOT org>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

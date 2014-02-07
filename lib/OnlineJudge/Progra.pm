@@ -8,7 +8,7 @@ use File::Copy;
 use warnings;
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.021';
 
 $0 = 'progra';
 
@@ -579,7 +579,7 @@ OnlineJudge::Progra - (Just Another) Programming Tasks Grading System
  
 =head1 VERSION
 
-Version 0.02
+Version 0.021
 
 =head1 SYNOPSIS
 

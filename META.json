@@ -22,8 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0",
-            "Cwd" : "3.4"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
@@ -33,15 +32,15 @@
       },
       "runtime" : {
          "requires" : {
-         	"perl" : "5.008",
-            "Cwd" : "3.4",
+         	"perl" : "5.008"
+            "Cwd" : "3.36",
             "File::Copy" : "2.14",
             "File::Spec::Functions" : "3.3",
             "Proc::Killall" : "1",
-            "Test::Simple" : "1.001002"
+            "Test::Simple" : "0.98"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.02"
+   "version" : "0.021"
 }

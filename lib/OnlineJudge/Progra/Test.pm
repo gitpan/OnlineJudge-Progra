@@ -4,7 +4,7 @@ use Cwd;
 use warnings;
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.021';
 
 
 # Simple get subroutine

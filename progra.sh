@@ -2,7 +2,7 @@
 #
 # bash script to manage Progra
 # israel leiva <ilv@cpan.org>
-# version: 0.02
+# version: 0.021
 #
 # usage:
 # chmod +x progra.sh
