@@ -2,12 +2,10 @@
 #
 # bash script to manage Progra
 # israel leiva <ilv@cpan.org>
-# version: 0.022
 #
 # usage:
 # chmod +x progra.sh
 #	./progra [start|stop|restart]
-#
 #
 
 DIR="/home/progra/"

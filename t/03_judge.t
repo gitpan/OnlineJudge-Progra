@@ -36,4 +36,3 @@ ok( $bar eq 'WA', 'wrong answer' );
 $foo = $j->process_request( $r[4] );
 $bar = $update->($foo);
 ok( $bar =~ m'^BW', 'badword found' );
-

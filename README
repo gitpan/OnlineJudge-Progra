@@ -1,5 +1,5 @@
-OnlineJudge-Progra version 0.022
-===============================
+OnlineJudge-Progra version 0.023
+================================
 
  Progra is an online judge capable of compile and test programs
  written to solve a programming task. 
@@ -47,7 +47,6 @@ OnlineJudge-Progra version 0.022
  For more information look at the POD in Progra.pm.
 
 
-
  INSTALLATION
 
  To install this module type the following:
@@ -57,7 +56,6 @@ OnlineJudge-Progra version 0.022
    make test
    make install
   
-
 
  AVAILABILITY
 
@@ -74,7 +72,6 @@ OnlineJudge-Progra version 0.022
  AUTHOR
 
  israel leiva <ilv AT cpan DOT org>
-
 
 
  COPYRIGHT AND LICENSE

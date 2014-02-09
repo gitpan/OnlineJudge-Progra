@@ -8,7 +8,7 @@ use File::Copy;
 use warnings;
 use strict;
 
-our $VERSION = '0.022';
+our $VERSION = '0.023';
 
 $0 = 'progra';
 
@@ -46,7 +46,7 @@ sub new {
 	$self->{'update_sub'}    	= undef;
 	$self->{'time_interval'} 	= 60; 		# in seconds
 	$self->{'home'}          	= '/tmp';
-	$self->{'diff_options'}  	= 'biwBE';
+	$self->{'diff_options'}  	= 'biw'; 
 
 	bless $self, $class;
 
@@ -461,8 +461,7 @@ sub compare {
 
 	# diff command will return a true value if there are any 
 	# differences between the files.  The -b argument ignores 
-	# extra white spaces, the -B ignores white lines, the -E 
-	# ignores tab expansion, the -w ignores all white spaces,
+	# extra white spaces, the -w ignores all white spaces,
 	# the -i ignore case differences
 	my $diff = `diff -$options $systemoutput $useroutput`;
 	
@@ -678,10 +677,9 @@ There are some execution strings by default:
 
 =head2 diff_options(string)
 
-Replace options for diff command. By default are: 'biwBE'.
-The -b argument ignores extra white spaces, the -B ignores white lines, 
-the -E ignores tab expansion, the -w ignores all white spaces, the -i 
-ignores case differences.
+Replace options for diff command. By default are: 'biw'.
+The -b argument ignores extra white spaces, the -w ignores 
+all white spaces, the -i ignores case differences.
 
 =head2 load_badwords(/path/to/file.txt)
 

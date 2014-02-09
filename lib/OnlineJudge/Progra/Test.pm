@@ -4,8 +4,7 @@ use Cwd;
 use warnings;
 use strict;
 
-our $VERSION = '0.022';
-
+our $VERSION = '0.023';
 
 # Simple get subroutine
 sub get {
@@ -20,9 +19,9 @@ sub get {
 		'timelimit'		=> 1,
 		'testcases'		=> 1,
 		'maxscore'		=> 100,
-		'lang'			=> 'c',
-		'sourcecode'	=> $path.'/t/03_judge01.c',
-		'compile'		=> 1,
+		'lang'			=> 'pl',
+		'sourcecode'	=> $path.'/t/03_judge01.pl',
+		'compile'		=> 0,
 		'userpath'		=> $path.'/t/usr/',
 		'taskpath'		=> $path.'/t/task/',
 	};

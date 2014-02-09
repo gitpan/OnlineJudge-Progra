@@ -1,5 +1,16 @@
 Revision history for Perl extension OnlineJudge::Progra.
 
+0.023 - 2014-02-09
+
+ [Code]
+ - Deleted BE from diff options (not available on OpenBSD according to CPANTESTERS)
+ - Changed t/03_judge01.c to t/03_judge01.pl
+ 
+ [Documentation and others]
+ - Fixed some modification time issues
+ - Added provided modules to META
+ - Added License file
+
 0.022 - 2014-02-07
 
  - Fixed META.json

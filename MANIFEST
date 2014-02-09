@@ -2,13 +2,14 @@ Changes
 Makefile.PL
 progra.sh
 MANIFEST
+LICENSE
 README
 t/01_basic.t
 t/02_diff.t
 t/02_diff01.txt
 t/02_diff02.txt
 t/03_judge.t
-t/03_judge01.c
+t/03_judge01.pl
 t/03_judge02.c
 t/03_judge03.pl
 t/03_judge04.pl

@@ -12,6 +12,13 @@ license: gpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+provides:
+	OnlineJudge::Progra:
+      file: lib/OnlineJudge/Progra.pm
+      version: 0.023
+    OnlineJudge::Progra::Test:
+      file: lib/OnlineJudge/Progra/Test.pm
+      version: 0.023
 name: OnlineJudge-Progra
 no_index:
   directory:
@@ -24,4 +31,4 @@ requires:
   File::Spec::Functions: 3.3
   Proc::Killall: 1
   Test::Simple: 0.98
-version: 0.022
+version: 0.023
